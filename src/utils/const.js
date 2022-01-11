@@ -16,9 +16,7 @@ const USE_ANIMATION_FOR_GRID = false;
 const CHINESE_INFO_MESSAGE = (yearLength, year) => {
   const yearStr = year === 'Total' ? '所有' : ` ${year} `;
   return `我用 App 记录自己跑步 ${yearLength} 年了，下面列表展示的是${yearStr}的数据。
-  "明明这么痛苦，这么难过，为什么就是不能放弃跑步？因为全身细胞都在蠢蠢欲动，想要感受强风迎面吹拂的滋味。"
-
-––《强风吹拂》
+  "长跑的目的不是为了更快，而是为了更强！––《强风吹拂》"
 `;
 }
 const ENGLISH_INFO_MESSAGE = (yearLength, year) =>
